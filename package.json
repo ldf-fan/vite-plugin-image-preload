@@ -1,0 +1,29 @@
+{
+    "name": "vite-plugin-image-preload",
+    "version": "1.0.0",
+    "description": "一个用于项目图片资源预加载的Vite插件。",
+    "keywords": [
+        "vite",
+        "vite-plugin-image-preload"
+    ],
+    "main": "./dist/index.cjs",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+        "build": "rollup --config"
+    },
+    "author": "ldf6780@163.com",
+    "license": "MIT",
+    "devDependencies": {
+        "@rollup/plugin-commonjs": "^28.0.1",
+        "@rollup/plugin-json": "^6.1.0",
+        "@rollup/plugin-node-resolve": "^15.3.0",
+        "@rollup/plugin-terser": "^0.4.4",
+        "@rollup/plugin-typescript": "^12.1.1",
+        "fast-glob": "^3.3.2",
+        "rollup": "^4.28.0",
+        "rollup-plugin-delete": "^2.1.0",
+        "tslib": "^2.8.1",
+        "typescript": "^5.7.2"
+    }
+}

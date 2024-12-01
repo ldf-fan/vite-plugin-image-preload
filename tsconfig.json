@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "lib": ["es5", "es6"],
+        "target": "ES6",
+        "moduleResolution": "node" /* 指定TypeScript如何从给定的模块说明符中查找文件。 */,
+        "resolveJsonModule": true,
+        "allowSyntheticDefaultImports": true /* Allow 'import x from y' when a module doesn't have a default export. */,
+        "outDir": "./dist",
+        "declaration": true,
+        "declarationDir": "./dist",
+        "rootDir": "./src"
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+}
